@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 
 /* Cores 
@@ -38,4 +39,46 @@ h1{
 
 h2{
     color:#219EBC;
+=======
+@charset "UTF-8";
+
+/* Cores 
+  --azul1: "#8ecae6";
+  --azul2: "#219ebc";
+  --azul3: "#023047";
+  
+*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to bottom,#219ebc,#023047);
+  height: 100%;
+
+}
+p {
+  text-align: justify;
+  color:#034d72 ;
+}
+main{
+    background-color: #8ecae6;
+    width: 60%;
+    padding:2.5%;
+    margin:auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #01203083 ;
+}
+h1{
+    color:#023047 ;
+    text-align: center;
+    text-shadow:1px 1px 2px #011e2c75 ;
+}
+
+h2{
+    color:#219EBC;
+>>>>>>> abd04236952e3bb21ae793e79ade1b890d775e97
 }
