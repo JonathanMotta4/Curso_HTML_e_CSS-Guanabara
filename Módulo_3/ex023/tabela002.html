@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        table {
+            width: 600px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 2em;
+            font-weight: bold;
+            padding: 10px;
+            background: lightgrey;
+        }
+
+        td,
+        th {
+            border: 2px solid black;
+            padding: 10px;
+
+        }
+        thead>tr>th{
+            position:sticky;
+            top:-1px;
+            background:#383838;
+        }
+        thead,
+        tfoot {
+            background: #383838;
+            color: white;
+        }
+
+        tbody>tr:nth-child(odd){
+            background-color:lightgrey;
+            
+        }
+
+        .numero {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Uso de Tabelas grandes</h1>
+    <table>
+        <caption>
+            15 paises mais populosos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Posição:</th>
+                <th scope="col">País:</th>
+                <th scope="col" style="width:50px;">População:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>China</td>
+                <td class="numero">1,448,471,404</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Índia</td>
+                <td class="numero">1,406,631,781</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>EUA</td>
+                <td class="numero">334,805,268</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Indonésia</td>
+                <td class="numero">279,134,505</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Paquistão</td>
+                <td class="numero">229,488,996</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Nigéria</td>
+                <td class="numero">216,746,933</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Brasil</td>
+                <td class="numero">215,353,588</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>Bangladesh</td>
+                <td class="numero">167,885,680</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Rússia</td>
+                <td class="numero">145,805,944</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>México</td>
+                <td class="numero">131,562,775</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Japão</td>
+                <td class="numero">125,584,839</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Etiópia</td>
+                <td class="numero">120,812,698</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Filipinas</td>
+                <td class="numero">112,508,991</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Egito</td>
+                <td class="numero">106,156,692</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Vietnam</td>
+                <td class="numero">98,953,535</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>México</td>
+                <td class="numero">131,562,775</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Japão</td>
+                <td class="numero">125,584,839</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Etiópia</td>
+                <td class="numero">120,812,698</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Filipinas</td>
+                <td class="numero">112,508,991</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Egito</td>
+                <td class="numero">106,156,692</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Vietnam</td>
+                <td class="numero">98,953,535</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>México</td>
+                <td class="numero">131,562,775</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Japão</td>
+                <td class="numero">125,584,839</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Etiópia</td>
+                <td class="numero">120,812,698</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Filipinas</td>
+                <td class="numero">112,508,991</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Egito</td>
+                <td class="numero">106,156,692</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Vietnam</td>
+                <td class="numero">98,953,535</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>México</td>
+                <td class="numero">131,562,775</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Japão</td>
+                <td class="numero">125,584,839</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Etiópia</td>
+                <td class="numero">120,812,698</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Filipinas</td>
+                <td class="numero">112,508,991</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Egito</td>
+                <td class="numero">106,156,692</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Vietnam</td>
+                <td class="numero">98,953,535</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>México</td>
+                <td class="numero">131,562,775</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Japão</td>
+                <td class="numero">125,584,839</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Etiópia</td>
+                <td class="numero">120,812,698</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Filipinas</td>
+                <td class="numero">112,508,991</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Egito</td>
+                <td class="numero">106,156,692</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Vietnam</td>
+                <td class="numero">98,953,535</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <th scope="row">Total de habitantes:</th>
+            <td class="numero">
+                <strong>5,139,903,629</strong>
+            </td>
+        </tfoot>
+    </table>
+ 
+</body>
+
+</html>
